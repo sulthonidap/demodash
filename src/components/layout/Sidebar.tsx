@@ -83,10 +83,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
     <>
       <div className="flex items-center justify-between p-4 lg:py-6 border-b border-gray-200 lg:border-none">
         <Link to="/" className="flex items-center gap-2">
-          <div className="bg-primary-600 rounded-md p-2">
-            <LayoutDashboard className="h-6 w-6 text-white" />
+          <div className=" rounded-md p-2">
+          <img
+            src="/image/logo.png"
+            alt="Logo"
+            className="h-auto w-6 sm:w-24 md:w-24 lg:w-24 object-contain bg-transparent"
+          />
           </div>
-          <span className="text-xl font-bold text-gray-900">Demo</span>
+          {/* <span className="text-xl font-bold text-gray-900">Demo</span> */}
         </Link>
         <button
           className="lg:hidden focus:outline-none"

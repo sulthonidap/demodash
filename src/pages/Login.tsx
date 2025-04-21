@@ -25,11 +25,11 @@ const Login: React.FC = () => {
       <div className="hidden md:flex md:w-1/2 bg-primary-700 text-white p-8 flex-col justify-between">
         <div>
           <div className="flex items-center mb-8">
-            <Building2 className="h-8 w-8 mr-2" />
-            <h1 className="text-2xl font-bold">Demo</h1>
+            {/* <Building2 className="h-8 w-8 mr-2" /> */}
+            {/* <h1 className="text-2xl font-bold">Demo</h1> */}
           </div>
           <div className="max-w-lg">
-            <h2 className="text-3xl font-bold mb-6">Dashboard Demo</h2>
+            <h2 className="text-3xl font-bold mb-6">Bai Dashboard Demo</h2>
             <p className="text-lg text-primary-100 mb-4">
               Rincian Fitur : 
             </p>

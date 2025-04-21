@@ -40,10 +40,14 @@ export const LoginForm: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} className="space-y-6 w-full max-w-md">
       <div className="mb-8 text-center">
-        <div className="mx-auto w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center mb-4">
-          <LogIn className="h-6 w-6 text-white" />
+        <div className="mx-auto flex items-center justify-center mb-4 bg-transparent">
+          <img
+            src="/image/logo.png"
+            alt="Logo"
+            className="h-auto w-24 sm:w-40 md:w-36 lg:w-36 object-contain bg-transparent"
+          />
         </div>
-        <h1 className="text-2xl font-bold text-gray-900">Demo Dashboard</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
         <p className="text-gray-500 mt-2">Masuk untuk mengakses dashboard Anda</p>
       </div>
 
