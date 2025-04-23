@@ -6,7 +6,7 @@ import { addDays, subDays, format } from 'date-fns';
 export const mockUsers: User[] = [
   {
     id: '1',
-    name: 'John Doe',
+    name: 'Rian',
     email: 'user@example.com',
     role: 'user',
     department: 'Marketing',
@@ -14,7 +14,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '2',
-    name: 'Jane Smith',
+    name: 'Fahmi',
     email: 'admin@example.com',
     role: 'admin',
     department: 'IT',
